@@ -1,0 +1,89 @@
+.search-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.results-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Display items in a single column */
+  align-items: center; /* Center items horizontally */
+}
+
+.results-item {
+  margin: 10px;
+  flex-basis: calc(33.33% - 20px); /* Distribute available space among items */
+  box-sizing: border-box;
+  text-align: center; /* Center the content within each card */
+}
+
+.results-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.results-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.results-item .buttons button,
+.results-item .buttons a {
+  padding: 8px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.results-item .buttons button:hover,
+.results-item .buttons a:hover {
+  background-color: #555;
+}
