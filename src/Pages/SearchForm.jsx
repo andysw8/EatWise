@@ -28,7 +28,7 @@ export default function SearchForm() {
 
   return (
     <div className="search-container">
-      <h2 className="search-title">Ingredient Search</h2>
+      <h2 className="search-title">Meal Search</h2>
       <form className="search-form" onSubmit={handleSearch}>
         <input
           className="search-input"

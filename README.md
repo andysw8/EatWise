@@ -10,14 +10,17 @@ A single page web application that allows users to add meals to a personalised m
 - Edamam API
 
 ## Screenshots
+![Home](/src/Images/Home.png)
+![Login](/src/Images/Login.png)
+![MealPlanner](/src/Images/Calorie%20count.png)
 
 ## Future Improvements 
 - A calendar to be able to structure your meals 
-- Drag and drop functionality
+- Drag and drop feature
 - Improve the CSS 
-- 
+- Interactive components
 - Create a backend
 
 ## Planning
 For this project I used trello to structure my tasks. 
-You can view the board [https://trello.com/b/0gsuFnjB/project-4](here)
+You can view the board [here](https://trello.com/b/0gsuFnjB/project-4)
